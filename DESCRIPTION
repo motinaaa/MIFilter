@@ -1,0 +1,30 @@
+Package: MIFilter
+Title: MIFilter
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Atefeh", "Anisi", , "anisi@iastate.edu", role = c("aut", "cre")),
+    person("Parvin", "Mohammadiarvejeh", , "pmohamm@iastate.edu", role = "aut"),
+    person("Motina", "Kashanian", , "motinaa@iastate.edu", role = "aut")
+  )
+Description: This package include some functions that allow the users to
+    analyze their datasets with many features based on MI and correlation
+    values, and get rid of extra unuseful features. This package contains
+    a dataset as an example.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dataPreparation,
+    graphics,
+    magrittr,
+    mpmi,
+    plotly,
+    purrr,
+    readr,
+    stats
+LitrVersionUsed: 0.8.0
+LitrId: 4b9c610145f340e7d6a7b8ccee77b953
+Depends: 
+    R (>= 2.10)
